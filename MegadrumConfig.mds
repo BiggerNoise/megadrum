@@ -2,7 +2,7 @@
 
 # Global Misc settings
 global_misc.lcd_contrast = 50
-global_misc.inputs_count = 18
+global_misc.inputs_count = 32
 global_misc.custom_names_en = false
 global_misc.config_names_en = false
 
@@ -19,7 +19,7 @@ misc.alt_false_tr_supp = true
 misc.inputs_priority = true
 misc.midi_thru = false
 misc.send_triggered_in = true
-misc.alt_note_choking = false
+misc.alt_note_choking = true
 
 #Pedal settings
 pedal.type = true
@@ -93,7 +93,7 @@ pos[1].low = 5
 pos[1].high = 15
 
 #Input 2 settings
-input[2].note = 46
+input[2].note = 49
 input[2].channel = 9
 input[2].curve = 12
 input[2].threshold = 31
@@ -113,8 +113,8 @@ input[2].dynLevel = 12
 input[2].compression = 0
 input[2].shift = 0
 input[2].name = 0
-input[2].altNote = 46
-input[2].pressrollNote = 46
+input[2].altNote = 49
+input[2].pressrollNote = 49
 input[2].altNote_linked = false
 input[2].pressrollNote_linked = false
 
@@ -124,7 +124,7 @@ pos[2].low = 5
 pos[2].high = 15
 
 #Input 3 settings
-input[3].note = 79
+input[3].note = 50
 input[3].channel = 9
 input[3].curve = 12
 input[3].threshold = 55
@@ -144,8 +144,8 @@ input[3].dynLevel = 12
 input[3].compression = 0
 input[3].shift = 0
 input[3].name = 0
-input[3].altNote = 79
-input[3].pressrollNote = 79
+input[3].altNote = 50
+input[3].pressrollNote = 50
 input[3].altNote_linked = false
 input[3].pressrollNote_linked = false
 
@@ -164,7 +164,7 @@ pad3d_zone[2+3].altNote_linked = false
 pad3d_zone[2+3].pressrollNote_linked = false
 
 #Input 4 settings
-input[4].note = 38
+input[4].note = 6
 input[4].channel = 9
 input[4].curve = 1
 input[4].threshold = 2
@@ -184,18 +184,18 @@ input[4].dynLevel = 1
 input[4].compression = 0
 input[4].shift = 0
 input[4].name = 0
-input[4].altNote = 38
-input[4].pressrollNote = 38
+input[4].altNote = 6
+input[4].pressrollNote = 6
 input[4].altNote_linked = false
 input[4].pressrollNote_linked = false
 
 #Input 4 positional settings
 pos[4].level = 3
 pos[4].low = 15
-pos[4].high = 30
+pos[4].high = 33
 
 #Input 5 settings
-input[5].note = 40
+input[5].note = 37
 input[5].channel = 9
 input[5].curve = 0
 input[5].threshold = 27
@@ -215,8 +215,8 @@ input[5].dynLevel = 13
 input[5].compression = 1
 input[5].shift = 0
 input[5].name = 0
-input[5].altNote = 40
-input[5].pressrollNote = 40
+input[5].altNote = 37
+input[5].pressrollNote = 37
 input[5].altNote_linked = false
 input[5].pressrollNote_linked = false
 
@@ -235,7 +235,7 @@ pad3d_zone[4+5].altNote_linked = false
 pad3d_zone[4+5].pressrollNote_linked = false
 
 #Input 6 settings
-input[6].note = 51
+input[6].note = 60
 input[6].channel = 9
 input[6].curve = 1
 input[6].threshold = 20
@@ -255,8 +255,8 @@ input[6].dynLevel = 6
 input[6].compression = 0
 input[6].shift = 0
 input[6].name = 5
-input[6].altNote = 51
-input[6].pressrollNote = 51
+input[6].altNote = 60
+input[6].pressrollNote = 60
 input[6].altNote_linked = false
 input[6].pressrollNote_linked = false
 
@@ -266,7 +266,7 @@ pos[6].low = 5
 pos[6].high = 15
 
 #Input 7 settings
-input[7].note = 52
+input[7].note = 62
 input[7].channel = 9
 input[7].curve = 6
 input[7].threshold = 100
@@ -286,8 +286,8 @@ input[7].dynLevel = 6
 input[7].compression = 1
 input[7].shift = 0
 input[7].name = 0
-input[7].altNote = 52
-input[7].pressrollNote = 52
+input[7].altNote = 63
+input[7].pressrollNote = 62
 input[7].altNote_linked = false
 input[7].pressrollNote_linked = false
 
@@ -297,16 +297,16 @@ pos[7].low = 5
 pos[7].high = 15
 
 #Third zone for intputs 6 and 7 settings
-pad3d_zone[6+7].note = 53
+pad3d_zone[6+7].note = 61
 pad3d_zone[6+7].threshold = 36
-pad3d_zone[6+7].altNote = 53
-pad3d_zone[6+7].pressrollNote = 53
+pad3d_zone[6+7].altNote = 61
+pad3d_zone[6+7].pressrollNote = 61
 pad3d_zone[6+7].dampenedNote = 0
 pad3d_zone[6+7].altNote_linked = false
 pad3d_zone[6+7].pressrollNote_linked = false
 
 #Input 8 settings
-input[8].note = 59
+input[8].note = 77
 input[8].channel = 9
 input[8].curve = 1
 input[8].threshold = 23
@@ -326,8 +326,8 @@ input[8].dynLevel = 6
 input[8].compression = 0
 input[8].shift = 0
 input[8].name = 0
-input[8].altNote = 59
-input[8].pressrollNote = 59
+input[8].altNote = 77
+input[8].pressrollNote = 77
 input[8].altNote_linked = false
 input[8].pressrollNote_linked = false
 
@@ -337,7 +337,7 @@ pos[8].low = 5
 pos[8].high = 15
 
 #Input 9 settings
-input[9].note = 49
+input[9].note = 77
 input[9].channel = 9
 input[9].curve = 6
 input[9].threshold = 40
@@ -357,8 +357,8 @@ input[9].dynLevel = 6
 input[9].compression = 1
 input[9].shift = 0
 input[9].name = 0
-input[9].altNote = 49
-input[9].pressrollNote = 49
+input[9].altNote = 78
+input[9].pressrollNote = 77
 input[9].altNote_linked = false
 input[9].pressrollNote_linked = false
 
@@ -368,16 +368,16 @@ pos[9].low = 5
 pos[9].high = 15
 
 #Third zone for intputs 8 and 9 settings
-pad3d_zone[8+9].note = 55
+pad3d_zone[8+9].note = 77
 pad3d_zone[8+9].threshold = 8
-pad3d_zone[8+9].altNote = 55
-pad3d_zone[8+9].pressrollNote = 55
+pad3d_zone[8+9].altNote = 77
+pad3d_zone[8+9].pressrollNote = 77
 pad3d_zone[8+9].dampenedNote = 0
 pad3d_zone[8+9].altNote_linked = false
 pad3d_zone[8+9].pressrollNote_linked = false
 
 #Input 10 settings
-input[10].note = 48
+input[10].note = 71
 input[10].channel = 9
 input[10].curve = 5
 input[10].threshold = 15
@@ -397,8 +397,8 @@ input[10].dynLevel = 1
 input[10].compression = 0
 input[10].shift = 1
 input[10].name = 0
-input[10].altNote = 48
-input[10].pressrollNote = 48
+input[10].altNote = 71
+input[10].pressrollNote = 71
 input[10].altNote_linked = false
 input[10].pressrollNote_linked = false
 
@@ -408,7 +408,7 @@ pos[10].low = 5
 pos[10].high = 15
 
 #Input 11 settings
-input[11].note = 14
+input[11].note = 72
 input[11].channel = 9
 input[11].curve = 6
 input[11].threshold = 27
@@ -428,8 +428,8 @@ input[11].dynLevel = 13
 input[11].compression = 2
 input[11].shift = 0
 input[11].name = 0
-input[11].altNote = 14
-input[11].pressrollNote = 14
+input[11].altNote = 72
+input[11].pressrollNote = 72
 input[11].altNote_linked = false
 input[11].pressrollNote_linked = false
 
@@ -448,7 +448,7 @@ pad3d_zone[10+11].altNote_linked = false
 pad3d_zone[10+11].pressrollNote_linked = false
 
 #Input 12 settings
-input[12].note = 47
+input[12].note = 69
 input[12].channel = 9
 input[12].curve = 5
 input[12].threshold = 25
@@ -468,8 +468,8 @@ input[12].dynLevel = 1
 input[12].compression = 0
 input[12].shift = 0
 input[12].name = 0
-input[12].altNote = 47
-input[12].pressrollNote = 47
+input[12].altNote = 69
+input[12].pressrollNote = 69
 input[12].altNote_linked = false
 input[12].pressrollNote_linked = false
 
@@ -479,7 +479,7 @@ pos[12].low = 5
 pos[12].high = 15
 
 #Input 13 settings
-input[13].note = 18
+input[13].note = 70
 input[13].channel = 9
 input[13].curve = 6
 input[13].threshold = 27
@@ -496,11 +496,11 @@ input[13].xtalkLevel = 0
 input[13].xtalkGroup = 2
 input[13].dynTime = 15
 input[13].dynLevel = 13
-input[13].compression = 2
+input[13].compression = 4
 input[13].shift = 0
 input[13].name = 0
-input[13].altNote = 18
-input[13].pressrollNote = 18
+input[13].altNote = 70
+input[13].pressrollNote = 70
 input[13].altNote_linked = false
 input[13].pressrollNote_linked = false
 
@@ -519,7 +519,7 @@ pad3d_zone[12+13].altNote_linked = false
 pad3d_zone[12+13].pressrollNote_linked = false
 
 #Input 14 settings
-input[14].note = 43
+input[14].note = 67
 input[14].channel = 9
 input[14].curve = 5
 input[14].threshold = 41
@@ -539,8 +539,8 @@ input[14].dynLevel = 1
 input[14].compression = 0
 input[14].shift = 0
 input[14].name = 0
-input[14].altNote = 43
-input[14].pressrollNote = 43
+input[14].altNote = 67
+input[14].pressrollNote = 67
 input[14].altNote_linked = false
 input[14].pressrollNote_linked = false
 
@@ -550,7 +550,7 @@ pos[14].low = 5
 pos[14].high = 15
 
 #Input 15 settings
-input[15].note = 20
+input[15].note = 68
 input[15].channel = 9
 input[15].curve = 6
 input[15].threshold = 27
@@ -570,8 +570,8 @@ input[15].dynLevel = 13
 input[15].compression = 1
 input[15].shift = 0
 input[15].name = 0
-input[15].altNote = 20
-input[15].pressrollNote = 20
+input[15].altNote = 68
+input[15].pressrollNote = 68
 input[15].altNote_linked = false
 input[15].pressrollNote_linked = false
 
@@ -661,28 +661,28 @@ pad3d_zone[16+17].altNote_linked = false
 pad3d_zone[16+17].pressrollNote_linked = false
 
 #Input 18 settings
-input[18].note = 0
+input[18].note = 57
 input[18].channel = 9
-input[18].curve = 0
-input[18].threshold = 30
+input[18].curve = 3
+input[18].threshold = 100
 input[18].retrigger = 10
-input[18].levelMax = 64
+input[18].levelMax = 732
 input[18].minScan = 20
 input[18].type = false
-input[18].autoLevel = true
+input[18].autoLevel = false
 input[18].dual = false
 input[18].threeWay = false
 input[18].function = 0
-input[18].gain = 0
-input[18].xtalkLevel = 3
-input[18].xtalkGroup = 0
-input[18].dynTime = 3
-input[18].dynLevel = 4
+input[18].gain = 4
+input[18].xtalkLevel = 7
+input[18].xtalkGroup = 1
+input[18].dynTime = 8
+input[18].dynLevel = 6
 input[18].compression = 0
 input[18].shift = 0
-input[18].name = 0
-input[18].altNote = 0
-input[18].pressrollNote = 0
+input[18].name = 8
+input[18].altNote = 57
+input[18].pressrollNote = 57
 input[18].altNote_linked = false
 input[18].pressrollNote_linked = false
 
@@ -700,7 +700,7 @@ input[19].retrigger = 10
 input[19].levelMax = 64
 input[19].minScan = 20
 input[19].type = false
-input[19].autoLevel = true
+input[19].autoLevel = false
 input[19].dual = false
 input[19].threeWay = false
 input[19].function = 0
@@ -1118,11 +1118,11 @@ pos[30].low = 5
 pos[30].high = 15
 
 #Input 31 settings
-input[31].note = 0
+input[31].note = 63
 input[31].channel = 9
-input[31].curve = 0
+input[31].curve = 1
 input[31].threshold = 30
-input[31].retrigger = 10
+input[31].retrigger = 8
 input[31].levelMax = 64
 input[31].minScan = 20
 input[31].type = false
@@ -1130,16 +1130,16 @@ input[31].autoLevel = true
 input[31].dual = false
 input[31].threeWay = false
 input[31].function = 0
-input[31].gain = 0
-input[31].xtalkLevel = 3
+input[31].gain = 4
+input[31].xtalkLevel = 4
 input[31].xtalkGroup = 0
-input[31].dynTime = 3
-input[31].dynLevel = 4
+input[31].dynTime = 6
+input[31].dynLevel = 12
 input[31].compression = 0
 input[31].shift = 0
 input[31].name = 0
-input[31].altNote = 0
-input[31].pressrollNote = 0
+input[31].altNote = 63
+input[31].pressrollNote = 63
 input[31].altNote_linked = false
 input[31].pressrollNote_linked = false
 
@@ -1150,10 +1150,10 @@ pos[31].high = 15
 
 #Third zone for intputs 30 and 31 settings
 pad3d_zone[30+31].note = 0
-pad3d_zone[30+31].threshold = 30
+pad3d_zone[30+31].threshold = 0
 pad3d_zone[30+31].altNote = 0
 pad3d_zone[30+31].pressrollNote = 0
-pad3d_zone[30+31].dampenedNote = 0
+pad3d_zone[30+31].dampenedNote = 63
 pad3d_zone[30+31].altNote_linked = false
 pad3d_zone[30+31].pressrollNote_linked = false
 
